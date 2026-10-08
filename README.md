@@ -55,9 +55,13 @@ python eval.py --dataset cifar100 --num_classes 100 --load_path /PATH/TO/CHECKPO
 
 If you use PiS, please cite the PiS paper:
 
-```text
-Haorong Han, Jidong Yuan, Chixuan Wei, and Yongqi Sun.
-Decoupled Optimization for Teacher–Student Semi-Supervised Learning via a Pioneer Student.
+```bibtex
+@article{han2026decoupled,
+  title   = {Decoupled Optimization for Teacher--Student Semi-Supervised Learning via a Pioneer Student},
+  author  = {Han, Haorong and Yuan, Jidong and Wei, Chixuan and Sun, Yongqi},
+  journal = {arXiv preprint arXiv:2610.09609},
+  year    = {2026}
+}
 ```
 
 If you use the underlying USB codebase, please also cite USB:
